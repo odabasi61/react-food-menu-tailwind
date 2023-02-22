@@ -13,7 +13,7 @@ const HeadlineCards = () => {
             The ultimate fast-food experience
           </p>
           <p className="px-2">Throught 7/24</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 hover:scale-105">
             Order Now
           </button>
         </div>
@@ -32,7 +32,7 @@ const HeadlineCards = () => {
             More than just a burger
           </p>
           <p className="px-2">Added Daily</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 hover:scale-105">
             Order Now
           </button>
         </div>
@@ -51,7 +51,7 @@ const HeadlineCards = () => {
             Bite into happiness with every burger
           </p>
           <p className="px-2">Available on Lunch</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 hover:scale-105">
             Order Now
           </button>
         </div>

@@ -72,25 +72,25 @@ const Navbar = () => {
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-800">
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex items-center hover:bg-orange-400 duration-300 rounded-lg cursor-pointer">
               <TbTruckDelivery size={25} className="mr-4" /> Orders
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex items-center hover:bg-orange-400 duration-300 rounded-lg cursor-pointer">
               <MdFavorite size={25} className="mr-4" /> Favorites
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex items-center hover:bg-orange-400 duration-300 rounded-lg cursor-pointer">
               <FaWallet size={25} className="mr-4" /> Wallet
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex items-center hover:bg-orange-400 duration-300 rounded-lg cursor-pointer">
               <MdHelp size={25} className="mr-4" /> Help
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex items-center hover:bg-orange-400 duration-300 rounded-lg cursor-pointer">
               <AiFillTag size={25} className="mr-4" /> Promotions
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex items-center hover:bg-orange-400 duration-300 rounded-lg cursor-pointer">
               <BsFillSaveFill size={25} className="mr-4" /> Best Ones
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex items-center hover:bg-orange-400 duration-300 rounded-lg cursor-pointer">
               <FaUserFriends size={25} className="mr-4" /> Invite Friends
             </li>
           </ul>
